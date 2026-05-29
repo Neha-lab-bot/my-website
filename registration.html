@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+</head>
+<body>
+
+<h2>Student Registration</h2>
+<p>Fill in your details. Fields with * are required.</p>
+
+<form>
+
+<h4>Personal Details</h4>
+
+<label>Full Name *</label><br>
+<input type="text" placeholder="e.g. Neha Sharma">
+<br><br>
+
+<label>Father's Name *</label><br>
+<input type="text"placeholder="e.g. Rajesh Sharma">
+<br><br>
+
+  <label>Mother's Name</label><br>
+<input type="text" placeholder="e.g. Sunita Sharma">
+<br><br>
+
+<label>Date of Birth *</label><br>
+<input type="date">
+  <br><br>
+
+<label>Gender *</label><br>
+<input type="radio" name="gender" value="male"> Male &nbsp;
+<input type="radio" name="gender"value="female"> Female &nbsp;
+<input type="radio" name="gender" value="other"> Other
+<br><br>
+
+<hr>
+
+    <h4>Contact Details</h4>
+
+<label>Email *</label><br>
+<input type="email" placeholder="e.g. neha@gmail.com">
+<br><br>
+
+  <label>Phone *</label><br>
+<input type="number" placeholder="10 digit number">
+<br><br>
+
+<label>Address</label><br>
+  <textarea rows="3" cols="40"placeholder="Street, City, PIN"></textarea>
+<br><br>
+
+<hr>
+
+<h4>Academic Details</h4>
+
+  <label>Course *</label><br>
+<select>
+    <option value="">-- select course --</option>
+    <option>B.Tech</option>
+      <option>BCA</option>
+    <option>MCA</option>
+    <option>B.Sc</option>
+</select>
+<br><br>
+
+<label>Branch *</label><br>
+<select>
+      <option value="">-- select branch --</option>
+    <option>Computer Science Engineering</option>
+    <option>Electronics & Communication</option>
+      <option>Mechanical Engineering</option>
+    <option>Civil Engineering</option>
+    <option>Information Technology</option>
+</select>
+<br><br>
+
+<label>Year *</label><br>
+<select>
+    <option value="">-- select year --</option>
+    <option>1st Year</option>
+<option>2nd Year</option>
+    <option>3rd Year</option>
+      <option>4th Year</option>
+</select>
+<br><br>
+
+<label>Roll Number</label><br>
+<input type="text" placeholder="college roll number">
+<br><br>
+
+<hr>
+
+<input type="checkbox"> I confirm all details are correct.
+<br><br>
+
+<input type="submit" value="Submit">
+&nbsp;
+<input type="reset" value="Clear">
+
+</form>
+
+</body>
+</html>
